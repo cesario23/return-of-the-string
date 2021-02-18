@@ -27,7 +27,7 @@ function yellLouder (str){
 }
 
 function getInitials (fullName){
-  return fullName[0] + '.' + fullName.indexOf (' ');
+  return fullName[0] + '.' + fullName[fullName.indexOf(' ') + 1] + '.'
 }
 
 
